@@ -1,0 +1,62 @@
+@charset "UTF-8";
+.Memform-section{
+	padding: 2rem 0;
+	background-color:#ff76ac;
+}
+
+.Memform-container{
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+	width:95%;
+	padding:2rem;
+	background-color:white;
+	border-radius: 10px;
+}
+
+.Memform-container h1{
+	margin-bottom: 3rem;
+	margin-right:1rem;
+}
+
+.info{
+	color:red;
+}
+
+.warn{
+	color: black;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 2rem;
+}
+
+.submit-btn{
+	background-color: #ff76ac;
+    border: none;
+    font-size: 3vh;
+    font-weight: bold;
+    height: 7vh;
+}
+
+.submit-btn:hover{
+	background-color: #ff1974;
+}
+
+.submit-btn:hover:active{
+	background-color: #ff76ac;
+}
+
+@media (max-width: 1024px){
+    
+}
+
+@media (max-width: 768px){
+    
+}
+
+@media (max-width: 425px){
+    
+
+}
+
+@media (max-width: 375px){
+    
+} 

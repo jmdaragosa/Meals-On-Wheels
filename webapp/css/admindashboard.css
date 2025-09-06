@@ -1,0 +1,157 @@
+:root {
+  --primary-pink: #ff76ac;
+  --secondary-pink: #e6a4b4;
+  --lavender: #D8CFF2;
+  --light: #FAFAFA;
+  --text-dark: #444444;
+}
+
+.admin-dashboard {
+  font-family: 'Arial', sans-serif;
+  background-color: var(--light);
+  color: var(--text-dark);
+}
+
+/* Sidebar */
+.admin-dashboard .sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100vh;
+  background-color: var(--primary-pink);
+  color: white;
+  padding: 20px 10px;
+  z-index: 1000;
+}
+
+.admin-dashboard .sidebar h2 {
+  margin-bottom: 20px;
+}
+
+.admin-dashboard .sidebar a {
+  color: white;
+  display: block;
+  margin: 12px 0;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Main content */
+.admin-dashboard .main {
+  margin-left: 250px;
+  margin-top: 40px;
+  padding: 10px 30px 30px 30px;
+  background-color: var(--light);
+}
+
+.admin-dashboard h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.admin-dashboard .card {
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: var(--text-dark);
+}
+
+.admin-dashboard .card h3 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.admin-dashboard .card-value {
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.admin-dashboard .card-delivery {
+  background-color: var(--secondary-pink);
+  color: white;
+}
+
+.admin-dashboard .card-donation {
+  background-color: var(--lavender);
+}
+
+.admin-dashboard .card-registration {
+  background-color: var(--primary-pink);
+  color: white;
+}
+
+/* Buttons */
+.admin-dashboard .btn-primary {
+  background-color: var(--primary-pink);
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-weight: bold;
+  color: white;
+}
+
+.admin-dashboard .btn-primary:hover {
+  background-color: #e05c93;
+}
+
+/* Form Inputs */
+.admin-dashboard input[type="date"] {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* Toggle */
+.admin-dashboard .toggle-btn {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  z-index: 1100;
+  background-color: var(--primary-pink);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  display: none;
+}
+
+/* Overlay */
+.admin-dashboard .overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 998;
+}
+
+.admin-dashboard .sidebar.active {
+  left: 0;
+}
+
+.admin-dashboard .overlay.active {
+  display: block;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .admin-dashboard .sidebar {
+    position: absolute;
+    left: -250px;
+    transition: left 0.3s ease-in-out;
+  }
+
+  .admin-dashboard .main {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .admin-dashboard .toggle-btn {
+    display: block;
+  }
+}

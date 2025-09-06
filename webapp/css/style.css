@@ -1,0 +1,31 @@
+/* src/main/resources/static/style.css */
+
+/* Import Hurdei font (example: if from Google Fonts) */
+@import url('https://fonts.googleapis.com/css2?family=Hurdei&display=swap');
+
+body {
+  background-color: #FAFAFA;
+  font-family: 'Hurdei', Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #FF76AC;
+}
+
+.navbar a {
+  color: white;
+}
+
+.btn-primary {
+  background-color: #FF76AC;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #E6A4B4;
+}
+
+.card {
+  background-color: #D8CFF2;
+  border: none;
+}

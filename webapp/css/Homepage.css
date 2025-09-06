@@ -1,0 +1,221 @@
+@charset "UTF-8";
+
+body {
+  max-width: 100%;
+  margin: 0 auto;
+}
+.alternate{
+    color:white;
+}
+
+.highlight{
+    color:rgb(255, 147, 147);
+}
+
+.separator{
+	background-color: black;
+	height: 1px;
+}
+
+.background-section{
+    position: relative;
+    background-image: url(../assets/HomepageBanner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wecometext{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.CTA-btn{
+    display: inline-block;
+    background-color: #ff76ac;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.CTA-btn:hover{
+    background-color: #ff1974;
+}
+
+.CTA-btn:hover:active{
+    background-color: #ff76ac;
+}
+
+.Aboutus-section img{
+	vertical-align: middle;
+    width: 250px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.Aboutus-text{
+	margin: 2rem;
+}
+
+.members-section{
+	padding: 2rem 0;
+}
+
+.members-section h2{
+	font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    width: 100%;
+}
+
+.members-container{
+	gap: 1rem;
+    margin-bottom: 5vh;
+}
+
+.members{
+	text-align: center;
+    width: 200px;
+    margin-left:10vh;
+	margin-right:10vh;
+}
+
+.members img{
+	width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;	
+}
+
+.members-btn-container{
+	display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 0.1rem;
+    color: red;
+    margin-bottom: 2vh;
+}
+.members-btn{
+	display: inline-block;
+    background-color: #ff76ac;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.members-btn:hover{
+	background-color: #ff1974;
+}
+
+.members-btn:active{
+	background-color: #ff76ac;
+}
+
+.memvol-section{
+	padding: 2rem 0;
+}
+
+.memvol-section h2{
+	font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    width: 100%;
+}
+
+.ourmembers-container{
+	gap: 1rem;
+    margin-bottom: 5vh;
+}
+
+.ourmembers{
+	text-align: center;
+    width: 200px;
+    margin-left:10vh;
+	margin-right:10vh;
+}
+
+.ourmembers img{
+	width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;	
+}
+
+.ourvolunteers-container{
+	gap: 1rem;
+    margin-bottom: 5vh;
+}
+
+.ourvolunteers{
+	text-align: center;
+    width: 200px;
+    margin-left:10vh;
+	margin-right:10vh;
+}
+
+.ourvolunteers img{
+	width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;	
+}
+
+.partners-section{
+	background: #ff76ac;
+}
+
+.partners-section-h2{
+	color: white;
+}
+
+.partlogo {
+    width: 100px;
+    height: 100px;
+    margin: 20px
+}
+
+@media (max-width: 1280px){
+	
+}
+	
+@media (max-width: 1024px){
+    
+}
+
+@media (max-width: 768px){
+    
+}
+
+@media (max-width: 480px){
+    
+} 
